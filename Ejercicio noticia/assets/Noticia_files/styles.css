@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header_main {
+  color: #121212;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin: 16px;
+}
+
+.breadcrumb {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding: 16px;
+}
+
+/* OPEN ARTICLE */
+
+/* DAN ESTRUCTURA */
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.content_total {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+
+/* ESTILIZAN */
+
+.main_title {
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.main_summary {
+  font-size: 1.2rem;
+}
+
+.social_bar {
+  display: flex;
+  align-items: center;
+}
+
+.social_bar_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo_facebook {
+  width: 35px;
+  height: 35px;
+}
+
+.logos {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 8px;
+}
+
+.logo_li {
+  padding: 4px;
+}
+
+.social_bar_title {
+  color: red;
+  font-weight: 800;
+}
+
+.social_bar_author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_author {
+  padding: 16px;
+}
+
+.main_date {
+  padding: 16px;
+}
+
+.main_section_button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+}

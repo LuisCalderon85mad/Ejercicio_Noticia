@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header_main {
+  color: #121212;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+hr {
+  border: 1px dashed lightgray;
+  width: 100%;
+}
+
+/* DUDA: Carga chunga del logo */
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.breadcrumb {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding: 16px;
+}
+
+/* OPEN ARTICLE */
+
+/* DAN ESTRUCTURA */
+
+/* DUDA: ¿CÓMO HACER QUE LA PARTE DE ARRIBA DE LA NOTICIA OCUPE EL 100% POR ENCIMA DEL ASIDE */
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 16px;
+  max-width: 1200px;
+}
+
+.content_total {
+  display: grid;
+  grid-template-rows: min-content 3fr;
+}
+
+/* ESTILIZAN */
+
+.main_title {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 32px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* DUDA: ¿CÓMO SE HACE PARA AJUSTAR LOS MÁRGENES RESPECTO AL TOTAL DE LA PÁGINA */
+
+.main_summary {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.social_bar {
+  display: flex;
+  align-items: center;
+}
+
+.social_bar_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo_facebook {
+  width: 35px;
+  height: 35px;
+}
+
+.logos {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 8px;
+}
+
+.logo_li {
+  padding: 4px;
+}
+
+.social_bar_title {
+  color: red;
+  font-weight: 800;
+}
+
+.social_bar_author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_author {
+  padding: 8px;
+}
+
+.main_date {
+  padding: 8px;
+}
+
+.main_section_button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.article_open_image {
+  width: 65%;
+  margin-bottom: 24px;
+}
+
+.article_container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.image_article {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.article_container p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.inner_recommended {
+  background-color: #e4f4fb;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  height: 90px;
+}
+
+/* DUDA: Imágenes gigantes que no se ajustan a su div o se distorsionan */
+.read_more {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  width: 20%;
+  text-align: center;
+  position: absolute;
+  top: -15%;
+}
+
+.read_more p {
+  font-size: 1rem;
+  text-align: center;
+  padding-left: 16px;
+}
+
+.inner_recommended p {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: 600;
+}
+
+.logo_read_more {
+  object-fit: content;
+  width: 35%;
+}
+
+/* ASIDE */
+
+.recommended_module {
+  width: 400px;
+  padding: 16px;
+  margin-top: 32px;
+}
+
+.recommended_image {
+  width: 50%;
+}
+
+.recommended_title {
+  margin-bottom: 16px;
+}
+
+.recommended_news {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+}
+
+.recommended_news_title {
+  font-size: 1.1rem;
+  padding: 8px;
+}
